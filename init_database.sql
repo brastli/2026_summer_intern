@@ -49,8 +49,6 @@ CREATE TABLE douban_top100 (
 ) COMMENT='豆瓣电影 Top 100 深度多维矩阵表';
 
 SELECT * FROM douban_top100;
-
--- 每次抓取前清空旧数据
 TRUNCATE TABLE douban_top100;
 
    DEFAULT CHARACTER SET = 'utf8mb4';
